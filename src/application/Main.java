@@ -1,10 +1,10 @@
 package application;
 	
-import javafx.application.*;
-import javafx.stage.Stage;
+import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 public class Main extends Application {
 	@Override
@@ -13,6 +13,7 @@ public class Main extends Application {
 			VBox root = new VBox();
 			root.getChildren().add(new Label ("Achraf's Label"));
 			root.getChildren().add(new Label ("Achraf's branch"));
+			root.getChildren().add(new Label ("Youssef's branch"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Youssef's project");
